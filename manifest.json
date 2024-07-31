@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Answer Questions",
+    "description": "An extension to answer questions based on a CSV file",
+    "version": "1.0",
+    "permissions": ["activeTab", "declarativeContent"],
+    "host_permissions": ["https://chattbot.onrender.com/*"],
+    
+    "action": {
+        "default_title": "Answer Questions",
+        "default_icon": {
+            "16": "images/icon.png",
+            "32": "images/icon.png",
+            "48": "images/icon.png",
+            "128": "images/icon.png"
+        },
+        "default_popup": "popup.html"
+    },
+
+    "icons": {
+        "16": "images/icon.png",
+        "32": "images/icon.png",
+        "48": "images/icon.png",
+        "128": "images/icon.png"
+    }
+}
